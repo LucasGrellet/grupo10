@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edición de Productos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-wid th, initial-scale=1">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h2> Edición de Productos </h2>
+        <div class="edita-archivo">
+        <div class="left-options">
+            <button type="submit">
+                <img class="img-prueba" src="/images/img-cafetera-moulinex.jpg" alt="buttonjpg" border="0" />
+            </button>
+        </div>
+
+        <div class="right-options">
+            <form action="/ID" method="POST">
+                <label for="nombre">ID de producto a editar</label>
+                <input type="Descrpción" name="nombre" id="ID">
+            </form>
+            <form action="/ID" method="POST">
+                <label for="nombre">Nuevo nombre</label>
+                <input type="Descrpción" name="nombre" id="ID">
+            </form>
+            <form action="/ID" method="POST">
+                <label for="nombre">Precio</label>
+                <input type="Descrpción" name="nombre" id="ID">
+            </form>
+            <form action="/ID" method="POST">
+                <label for="categoria">Categorías</label>
+                <select name="categorias" id="Categoría">
+                    <option value="buzo">Buzos</option>
+                    <option value="calzado">Calzado</option>
+                    <option value="pantalon">Pantalon</option>
+                    <option value="remeras">Remeras</option>
+                </select>
+            </form>
+            <form action="/ID" method="POST">
+                <label for="Talles">Talles</label>
+                <select name="Talles" id="Talles">
+                    <option value="Small">S</option>
+                    <option value="Medium">M</option>
+                    <option value="Large">L</option>
+                    <option value="ExtraLarge">XL</option>
+                </select>
+            </form>
+            <form class="descripcion" action="/ID" method="POST">
+                <label for="Descripción">Descripción</label>
+                <textarea name="comentario" id="comentario"> Inserte la Descripción del producto </textarea>
+            </form>
+            <button class="boton-editar" type="button">Editar</button>
+        </div>
+        </div>
+    </main>
+</body>
+</html>
